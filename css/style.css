@@ -101,6 +101,10 @@ a.navbar-brand {
   border-color: transparent;
 }
 
+.btn-light:focus {
+  border-color: transparent;
+}
+
 .intro .btn-light {
   font-family: "Montserrat", sans-serif;
   padding: 16px 42px;
