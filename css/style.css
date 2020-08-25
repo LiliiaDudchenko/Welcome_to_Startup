@@ -762,15 +762,16 @@ footer .fab {
   .form-control {
     margin-bottom: 1rem;
   }
+}
 
-  @media (max-width:408px) {
+@media (max-width:408px) {
 
-    .intro h1 {
-      font-size: 35px;
-    }
-
-    .button {
-      display: block;
-      margin: 0 0 5px;
-    }
+  .intro h1 {
+    font-size: 35px;
   }
+
+  .button {
+    display: block;
+    margin: 0 0 5px;
+  }
+}
