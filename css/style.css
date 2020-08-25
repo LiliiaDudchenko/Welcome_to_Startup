@@ -482,6 +482,10 @@ form input:last-child {
   margin-right: 0;
 }
 
+.form-group {
+  display: flex;
+}
+
 .form-control {
   border-radius: 0;
   border: 1px solid #555;
@@ -750,16 +754,23 @@ footer .fab {
   form input {
     margin-right: 5px;
   }
-}
 
-@media (max-width:408px) {
-
-  .intro h1 {
-    font-size: 35px;
-  }
-
-  .button {
+  .form-group {
     display: block;
-    margin: 0 0 5px;
   }
-}
+
+  .form-control {
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width:408px) {
+
+    .intro h1 {
+      font-size: 35px;
+    }
+
+    .button {
+      display: block;
+      margin: 0 0 5px;
+    }
+  }
